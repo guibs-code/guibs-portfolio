@@ -1,28 +1,25 @@
 import { ProjectCard } from '@/components/project-card'
-import { Key } from 'react'
+import { ProjectProps } from './App'
 
-export function Portfolio({ projs }) {
+interface AllProjects {
+	projs: ProjectProps[]
+}
+
+export function Portfolio({ projs }: Readonly<AllProjects>) {
 	return (
 		<div className="flex flex-col gap-4">
 			<h2 className="title font-semibold text-3xl">Latest Projects</h2>
 			<div id="cards" className="flex flex-col gap-4">
-				{projs.map(
-					(proj: {
-						id: Key | null | undefined
-						name: unknown
-						description: unknown
-						img: unknown
-						tech: unknown
-					}) => (
-						<ProjectCard
-							key={proj.id}
-							projName={proj.name}
-							projDesc={proj.description}
-							projImg={proj.img}
-							projTech={proj.technologies}
-						/>
-					)
-				)}
+				{projs.map((proj: ProjectProps) => (
+					<ProjectCard
+						key={proj.id}
+						name={proj.name}
+						description={proj.description}
+						img={proj.img}
+						technologies={proj.technologies}
+						id={proj.id}
+					/>
+				))}
 			</div>
 		</div>
 	)

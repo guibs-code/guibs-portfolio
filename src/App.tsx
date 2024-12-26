@@ -1,9 +1,17 @@
 import { About } from '@/About'
 import { Portfolio } from '@/Portfolio'
-import projects from '@/data/projects.json'
+import projData from '@/data/projects.json'
+
+export interface ProjectProps {
+	id: number
+	name: string
+	description: string
+	img: string
+	technologies: string[]
+}
 
 export function App() {
-	console.log(projects)
+	const projects: ProjectProps[] = projData
 
 	return (
 		<div className="flex flex-col gap-11">
