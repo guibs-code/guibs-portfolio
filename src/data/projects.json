@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"name": "React + Vite Portfolio Website",
+		"description": "My first website",
+		"img": "https://archive.org/download/placeholder-image/placeholder-image.jpg",
+		"technologies": ["React", "TypeScript", "Tailwind CSS"]
+	},
+	{
+		"id": 2,
+		"name": "E-commerce Shop",
+		"description": "College full-stack project to develop an e-commerce shop using Bootstrap, Node.js, Express.js and Bcrypt. The website also includes connections with a MongoDB and a PostgreSQL databases",
+		"img": "https://archive.org/download/placeholder-image/placeholder-image.jpg",
+		"technologies": ["Express.js", "Bcrypt", "MongoDB", "PostgreSQL"]
+	}
+]
