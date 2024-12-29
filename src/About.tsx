@@ -2,7 +2,7 @@ import { SocialButtons } from './components/social-buttons'
 
 export function About() {
 	return (
-		<div className="flex flex-col gap-4 w-3/4">
+		<div className="flex flex-col gap-4 md:w-3/4">
 			<h2 className="title font-semibold text-3xl">Hi, Guibs here!</h2>
 			<p>
 				I'm a Brazilian software engineer based in Toronto, Canada, who builds
