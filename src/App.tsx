@@ -7,6 +7,7 @@ export interface ProjectProps {
 	name: string
 	description: string
 	img: string
+	git: string
 	technologies: string[]
 }
 
