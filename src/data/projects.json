@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "My Personal Website",
 		"description": "My personal portfolio website designed to be simplistic and clean using shadcn/ui with Tailwind CSS, while including features like dark mode toggle, dialog components, and copy email to clipboard.",
-		"img": "/public/images/guibs-portfolio.png",
+		"img": "/images/guibs-portfolio.png",
 		"git": "https://github.com/guibs-code/guibs-portfolio",
 		"technologies": ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"]
 	},
@@ -11,7 +11,7 @@
 		"id": 2,
 		"name": "E-Commerce Website",
 		"description": "College full-stack project to develop an e-commerce website using Bootstrap, Express.js and PostgreSQL, supporting a responsive layout, sign-up and sign-in functionalities items' creation, manipulation and deletion.",
-		"img": "/public/images/ecommerce-shop.jpg",
+		"img": "/images/ecommerce-shop.jpg",
 		"git": "https://github.com/guibs-code/web322-app",
 		"technologies": ["Bootstrap", "Node.js", "Express.js", "PostgreSQL"]
 	},
@@ -19,7 +19,7 @@
 		"id": 3,
 		"name": "Factory Assembly Line App",
 		"description": "A C++ resource management application that receives customer orders' and distribute them along workstations in an assembly line according to its items in stock to fulfill the orders",
-		"img": "/public/images/old-factory.jpg",
+		"img": "/images/old-factory.jpg",
 		"git": "https://github.com/guibs-code",
 		"technologies": ["C++", "Resource Management", "Containers", "STL"]
 	},
@@ -27,7 +27,7 @@
 		"id": 4,
 		"name": "Dictionary Management Application",
 		"description": "C++ app that reads multiple dictionary databases with over 200,000 words and categorizes them, while including searching for a word and displaying its definitions and part of speech where it's used.",
-		"img": "/public/images/dictionary.jpg",
+		"img": "/images/dictionary.jpg",
 		"git": "https://github.com/guibs-code",
 		"technologies": ["C++", "Inheritance", "Containers", "STL"]
 	}
