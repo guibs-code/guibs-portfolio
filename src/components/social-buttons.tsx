@@ -65,7 +65,7 @@ export function SocialButtons() {
 					</AlertDialogFooter>
 				</AlertDialogContent>
 			</AlertDialog>
-			<a href="/public/files/Resume - Guilherme da Silva.pdf">
+			<a href="/files/Resume - Guilherme da Silva.pdf">
 				<Button
 					variant="outline"
 					className="text-neutral-500 dark:text-neutral-300 dark:hover:text-neutral-200"
