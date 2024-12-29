@@ -29,6 +29,6 @@
 		"description": "C++ app that reads multiple dictionary databases with over 200,000 words and categorizes them, while including searching for a word and displaying its definitions and part of speech where it's used.",
 		"img": "/public/images/dictionary.jpg",
 		"git": "https://github.com/guibs-code",
-		"technologies": ["Express.js", "Bcrypt", "MongoDB", "PostgreSQL"]
+		"technologies": ["C++", "Inheritance", "Containers", "STL"]
 	}
 ]
