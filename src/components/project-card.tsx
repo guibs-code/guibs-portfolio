@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import { Badge } from '@/components/ui/badge'
 import { ProjectProps } from '@/App'
 
@@ -7,29 +8,36 @@ export function ProjectCard({
 	name,
 	description,
 	img,
+	git,
 	technologies,
 }: Readonly<ProjectProps>) {
 	return (
 		<Card className="flex">
 			<div className="w-1/3 space-y-1.5 p-6 pr-0 m-auto">
-				<img
-					src={img}
-					className="rounded-lg"
-					alt={`${name} project screenshot`}
-				/>
+				<a href={git} target="_blank">
+					<img
+						src={img}
+						className="rounded-lg"
+						style={{ width: '218px', height: '163.5px' }}
+						alt={`${name} project screenshot`}
+					/>
+				</a>
 			</div>
 			<div className="w-2/3">
 				<CardHeader className="gap-1 pb-4">
 					<CardTitle>{name}</CardTitle>
-					<div className="flex gap-1">
-						{technologies.map((tech) => {
-							return (
-								<Badge key={id} variant="outline">
-									{tech}
-								</Badge>
-							)
-						})}
-					</div>
+					<ScrollArea className="whitespace-nowrap">
+						<div className="flex space-x-1">
+							{technologies.map((tech) => {
+								return (
+									<Badge key={id} variant="outline">
+										{tech}
+									</Badge>
+								)
+							})}
+							<ScrollBar orientation="horizontal" />
+						</div>
+					</ScrollArea>
 				</CardHeader>
 				<CardContent>
 					<p>{description}</p>
