@@ -13,7 +13,7 @@ export function ProjectCard({
 }: Readonly<ProjectProps>) {
 	return (
 		<Card className="flex">
-			<div className="w-1/3 space-y-1.5 p-6 pr-0 m-auto">
+			<div className="hidden md:block w-1/3 space-y-1.5 p-6 pr-0 m-auto">
 				<a href={git} target="_blank">
 					<img
 						src={img}
@@ -23,7 +23,7 @@ export function ProjectCard({
 					/>
 				</a>
 			</div>
-			<div className="w-2/3">
+			<div className="w-full md:w-2/3">
 				<CardHeader className="gap-1 pb-4">
 					<CardTitle>{name}</CardTitle>
 					<ScrollArea className="whitespace-nowrap">
