@@ -8,13 +8,13 @@ export function ProjectCard({
 	name,
 	description,
 	img,
-	git,
+	url,
 	technologies,
 }: Readonly<ProjectProps>) {
 	return (
 		<Card className="flex">
 			<div className="hidden md:block w-1/3 space-y-1.5 p-6 pr-0 m-auto">
-				<a href={git} target="_blank">
+				<a href={url} target="_blank">
 					<img
 						src={img}
 						className="rounded-lg"

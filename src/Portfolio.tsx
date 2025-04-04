@@ -16,7 +16,7 @@ export function Portfolio({ projs }: Readonly<AllProjects>) {
 						name={proj.name}
 						description={proj.description}
 						img={proj.img}
-						git={proj.git}
+						url={proj.url}
 						technologies={proj.technologies}
 						id={proj.id}
 					/>

@@ -1,34 +1,42 @@
 [
 	{
-		"id": 1,
-		"name": "My Personal Website",
-		"description": "My personal portfolio website designed to be simplistic and clean using shadcn/ui with Tailwind CSS, while including features like dark mode toggle, dialog components, and copy email to clipboard.",
-		"img": "/images/guibs-portfolio.png",
-		"git": "https://github.com/guibs-code/guibs-portfolio",
-		"technologies": ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"]
-	},
-	{
-		"id": 2,
-		"name": "E-Commerce Website",
-		"description": "College full-stack project to develop an e-commerce website using Bootstrap, Express.js and PostgreSQL, supporting a responsive layout, sign-up and sign-in functionalities items' creation, manipulation and deletion.",
-		"img": "/images/ecommerce-shop.jpg",
-		"git": "https://github.com/guibs-code/web322-app",
-		"technologies": ["Bootstrap", "Node.js", "Express.js", "PostgreSQL"]
-	},
-	{
-		"id": 3,
-		"name": "Factory Assembly Line App",
-		"description": "A C++ resource management application that receives customer orders' and distribute them along workstations in an assembly line according to its items in stock to fulfill the orders",
-		"img": "/images/old-factory.jpg",
-		"git": "https://github.com/guibs-code",
-		"technologies": ["C++", "Resource Management", "Containers", "STL"]
+		"id": 5,
+		"name": "Seneca Hackathon 2025",
+		"description": "Next.js web app used as the main landing page and participants' registration for the Seneca Hackathon 2025. Implemented all base components, and led and mentored a team of 4 front-end engineers.",
+		"img": "/images/seneca-hackathon.jpg",
+		"url": "https://www.senecahackathon.com/",
+		"technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
 	},
 	{
 		"id": 4,
+		"name": "My Personal Website",
+		"description": "My personal portfolio website designed to be simplistic and clean using shadcn/ui with Tailwind CSS, while including features like dark mode toggle, dialog components, and copy email to clipboard.",
+		"img": "/images/guibs-portfolio.png",
+		"url": "https://github.com/guibs-code/guibs-portfolio",
+		"technologies": ["React", "TypeScript", "Tailwind CSS", "shadcn/ui"]
+	},
+	{
+		"id": 3,
+		"name": "E-Commerce Website",
+		"description": "College full-stack project to develop an e-commerce website using Bootstrap, Express.js and PostgreSQL, supporting a responsive layout, sign-up and sign-in functionalities items' creation, manipulation and deletion.",
+		"img": "/images/ecommerce-shop.jpg",
+		"url": "https://github.com/guibs-code/web322-app",
+		"technologies": ["Bootstrap", "Node.js", "Express.js", "PostgreSQL"]
+	},
+	{
+		"id": 2,
+		"name": "Factory Assembly Line App",
+		"description": "A C++ resource management application that receives customer orders' and distribute them along workstations in an assembly line according to its items in stock to fulfill the orders",
+		"img": "/images/old-factory.jpg",
+		"url": "https://github.com/guibs-code",
+		"technologies": ["C++", "Resource Management", "Containers", "STL"]
+	},
+	{
+		"id": 1,
 		"name": "Dictionary Management Application",
 		"description": "C++ app that reads multiple dictionary databases with over 200,000 words and categorizes them, while including searching for a word and displaying its definitions and part of speech where it's used.",
 		"img": "/images/dictionary.jpg",
-		"git": "https://github.com/guibs-code",
+		"url": "https://github.com/guibs-code",
 		"technologies": ["C++", "Inheritance", "Containers", "STL"]
 	}
 ]
